@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Narziss;
+    src: url(FontsFree-Net-Narziss1.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+h1 {
+    font-size: 40px;
+    color:black;
+    font-family: Narziss;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    color:black;
+    font-family: Narziss;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+    text-align: right;
+    letter-spacing: 0.05em;
+}
+body {
+    background-image: url("tulip\ 2.jpg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment:fixed;
+   }
+
+.home_screen {
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+
+    
+}
+
+input[type="text"] {
+    font-size: 16px;
+    color:black;
+    font-family: Narziss;
+    opacity: 0.8;
+}
